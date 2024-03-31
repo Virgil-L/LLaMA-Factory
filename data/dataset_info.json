@@ -1,4 +1,45 @@
 {
+  "universal_ner_definition":{
+    "file_name":"pile_ner_definition_train.json",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    },
+    "formatting": "sharegpt"
+  },
+  "universal_ner_type":{
+    "file_name":"pile_ner_type_train.json",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    },
+    "formatting": "sharegpt"
+  },
+  "universal_ner_all":{
+    "file_name":"pile_ner_all_train.json",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    },
+    "formatting": "sharegpt"
+  },
+
+
   "alpaca_en": {
     "file_name": "alpaca_data_en_52k.json",
     "file_sha1": "607f94a7f581341e59685aef32f531095232cf23"
